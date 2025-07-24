@@ -48,7 +48,55 @@ print(string[3:5:1])
 #repeat the string
 """
 string_name*n
-"""
+
 
 string='python'
+print('python'*5)
+print(string[0]*5)# to print a particular character in the string
+sliced=string[2:5:2]# to print some characters in the string # start from 2 and end at 5-1=4 while taking every 2nd character
+print(sliced*5)
+"""
+#concatenation operator
+
+# Membership operator
+"""
+Type of membership operator
+in
+not in
+
+
+main_str=input("enter the main string:")
+sub_str=input("enter the sub string:")
+if sub_str in main_str:
+    print(f"{sub_str} is present in the main string")
+else:
+    print(f"{sub_str} is not present in the main string")
+
+
+#comparison of two strings
+
+name='Vibhor Python'
+if name=='Vibhor Python':
+    print(True)
+else:
+    print(False)
+
+# if we have left or right space with the string,we can use strip method,strip() to remove the leading nd trailing spaces , like :-
+
+name='  Vibhor Python '
+if name.strip()=='Vibhor Python':#lstrip to remove left space /rstrip to remove right space
+    print(True)
+else:
+    print(False)
+
+
+"""
+
+#counting of the character in the string
+main_str='Noida is near Delhi'
+#total=main_str.count('i')
+total=main_str.count('i',2,10)
+print(total)
+
+
 
