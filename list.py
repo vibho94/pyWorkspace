@@ -41,3 +41,9 @@ a=["Vibhor",28,"M","Noida"]
 print(a)
 del a[0]
 print(a)
+
+#reversing of the list
+a=[1,2,3,4,5]
+print(a)
+a.reverse()
+print(a)
